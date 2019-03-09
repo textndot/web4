@@ -2,27 +2,27 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&subset=korean');
 @font-face { font-family: 'Noto Sans kr', sans-serif;
-              font-family: 'Nanum Gothic', sans-serif;
-              font-family: ''}
-h1 {font-family: 'Noto Sans KR', sans-serif;}
+              font-family: 'Nanum Gothic', sans-serif;}
+h1 {font-family: 'Noto Sans KR', sans-serif;
+  }
 
 @media (min-width: 0px) and (max-width: 1000px)
   {
 
-    body {background-color: #faffb3;}
+    body {background-color: #dbdbdb;}
     h3 {font-family: 'Ubuntu', sans-serif;
         font-size: 20px;
         position: fixed;
         font-weight: 500;}
 
-.cat0,  .cat1, .cat2 {
+  .cat0, .cat1, .cat2 {
         color: black;}
     .cat0 {display:inline-block; width: 30%; margin:10px;position:fixed;left:515px}
     .cat1 {display:inline-block; width: 30px; margin:10px;position:fixed;left:600px}
     .cat2 {display:inline-block; width:30%; margin:10px;position:fixed;left:650px}
     h4 {font-family: 'Noto Sans KR', sans-serif;
-        font-size: 13.5px;
-        line-height: 24px;
+        font-size: 13px;
+        line-height: 23px;
         font-weight: 400;
         color: black;
         word-break: keep-all;
@@ -108,19 +108,9 @@ h1 {font-family: 'Noto Sans KR', sans-serif;}
             text-align: right;
               }
 
-
-          .각주 {font-family: 'Noto Sans kr', sans-serif;
-              font-size: 12px;
-              line-height: 18px;
-              color: black;
-              position:fixed;
-              text-align: left;
-              font-weight: 300;
-              bottom: 30px;
-              left: 20px;}
+      #kit {position: absolute;}
 
 
-                #kit {position: absolute;}
 
 
 }
@@ -131,7 +121,7 @@ h1 {font-family: 'Noto Sans KR', sans-serif;}
 @media (min-width: 1001px)
   {
 
-    body {background-color: black;}
+    body {background-color: white;}
     h3 {font-family: 'Ubuntu', sans-serif;
         font-size: 20px;
         position: fixed;
@@ -156,23 +146,23 @@ h1 {font-family: 'Noto Sans KR', sans-serif;}
         }
 
     .jiwon {font-family: 'Ubuntu', sans-serif;
-        font-size: 10px;
-        line-height: 15px;
+        font-size: 7px;
+        line-height: 13px;
         color: black;
         position:fixed;
         text-align: right;
-        font-weight: 200;
+        font-weight: 100;
         bottom: 5px;
         right: 200px;
         }
 
         .jimyung {font-family: 'Ubuntu', sans-serif;
-            font-size: 10px;
-            line-height: 15px;
+            font-size: 7px;
+            line-height: 13px;
             color: black;
             position:fixed;
             text-align: right;
-            font-weight: 200;
+            font-weight: 100;
             bottom: 5px;
             right: 20px;}
 
